@@ -1,0 +1,8 @@
+<launch>
+  
+  <!-- Start the first node -->
+  <node pkg="semantic_segment" type="myscript.py" name="seg_subs" output="screen">
+  </node>
+
+  <include file="$(find lidar_camera_fusion)/launch/vlp16OnImg_offline.launch" />
+</launch>

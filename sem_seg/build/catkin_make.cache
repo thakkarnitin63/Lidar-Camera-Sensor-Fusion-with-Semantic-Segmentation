@@ -1,0 +1,2 @@
+lidar-camera-fusion:semantic_segment
+-DCATKIN_DEVEL_PREFIX=/home/nitin/sem_seg/devel -DCMAKE_INSTALL_PREFIX=/home/nitin/sem_seg/install -G Unix Makefiles

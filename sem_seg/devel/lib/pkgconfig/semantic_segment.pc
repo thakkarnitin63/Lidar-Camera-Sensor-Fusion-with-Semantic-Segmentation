@@ -1,0 +1,8 @@
+prefix=/home/nitin/sem_seg/devel
+
+Name: semantic_segment
+Description: Description of semantic_segment
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lsemantic_segment
+Requires: rospy
